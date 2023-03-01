@@ -1,0 +1,288 @@
+#special{
+    width: 100%;
+}
+#special .item .item_title_box{
+    height: 60px;
+    padding: 0 20px;
+    font-size: 0;
+    line-height: 0;
+}
+#special .item .item_title_box .item_title{
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333333;
+    line-height: 60px;
+    cursor: pointer;
+}
+#special .item .item_title_box .item_title .arrow{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px rgb(200, 22, 35) solid;
+    color: rgb(200, 22, 35);
+    background-color: white;
+    margin-left: 10px;
+    position: relative;
+    top: -4px;
+}
+#special .item .item_title_box .item_title:hover .arrow{
+    color: white;
+    background-color: rgb(200, 22, 35);
+}
+#special .item .item_title_box .item_nav{
+    height: 100%;
+    font-size: 14px;
+    text-align: right;
+    line-height: 60px;
+}
+#special .item .item_title_box .item_nav span{
+    margin-left: 20px;
+    border-bottom: 2px transparent solid;
+    cursor: pointer;
+}
+#special .item .item_title_box .item_nav span.active{
+    color: #c81623;
+    border-bottom: 2px #c81623 solid;
+}
+#special #special_offer{
+    width: 590px;
+    background-color: white;
+    margin: 0 10px 0 0;
+}
+#special #special_offer .special_list{
+    width: 100%;
+    padding: 0 15px 15px;
+}
+#special #special_offer .special_list .special_list_l{
+    background-color: rgba(109,126,146,0.05);
+    width: 170px;
+    height: 265px;
+    margin-right: 6px;
+    position: relative;
+}
+#special #special_offer .special_list .special_list_l .special_item .special_item_lowestFirst{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 90px;
+    height: 24px;
+    background-image: url("../images/special_item_lowestFirst.png");
+    background-size: cover;
+    background-position: 50%;
+    font-family: MicrosoftYaHei-Bold,Microsoft Yahei,PingFangSC-Medium,sans-serif,serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    color: white;
+    letter-spacing: 0;
+    text-align: center;
+}
+#special #special_offer .special_list .special_list_l .special_item .special_item_img{
+    margin: 46px auto 0;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+#special #special_offer .special_list .special_list_l .special_item .special_item_img img{
+    width: 100%;
+    height: 100%;
+}
+#special #special_offer .special_list .special_list_l .special_item .special_item_info{
+    margin: 10px auto;
+}
+#special #special_offer .special_list .special_list_l .special_item .special_item_info .special_item_name{
+    margin: 9px 0 4px 0;
+    line-height: 19px;
+    height: 19px;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+#special #special_offer .special_list .special_list_l .special_item:hover .special_item_info .special_item_name{
+    color: #c81623;
+}
+#special #special_offer .special_list .special_list_l .special_item .special_item_info .special_item_price{
+    font-size: 18px;
+    text-align: center;
+    color: #c81623;
+    margin-bottom: 2px;
+}
+#special #special_offer .special_list .special_list_l .special_item .special_item_info .special_item_price .dollar_txt{
+    font-size: 12px;
+}
+#special #special_offer .special_list .special_list_l .special_item .special_item_info .special_item_soldMsg{
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+}
+#special #special_offer .special_list .special_list_l .special_item .special_item_info .special_item_soldMsg .special_item_soldNum{
+    color: #c81623;
+}
+#special #special_offer .special_list .special_list_r{
+    width: 390px;
+}
+#special #special_offer .special_list .special_list_r{
+    width: 384px;
+}
+#special #special_offer .special_list .special_list_r .special_item{
+    display: inline-block;
+    width: 170px;
+    margin: 18px 0 20px 19px;
+}
+#special #special_offer .special_list .special_list_r .special_item .special_item_img_box{
+    width: 84px;
+    height: 84px;
+    position: relative;
+}
+#special #special_offer .special_list .special_list_r .special_item .special_item_img_box .special_item_img{
+    width: 84px;
+    height: 84px;
+}
+#special #special_offer .special_list .special_list_r .special_item .special_item_img_box .special_item_img img{
+    width: 100%;
+    height: 100%;
+}
+#special #special_offer .special_list .special_list_r .special_item .special_item_img_box .special_item_lowestFirst{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 11px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    text-align: center;
+    line-height: 16px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#special #special_offer .special_list .special_list_r .special_item .special_item_info{
+    width: 75px;
+    height: 84px;
+    position: relative;
+    margin-left: 10px;
+}
+#special #special_offer .special_list .special_list_r .special_item .special_item_info .special_item_name{
+    color: #333333;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Microsoft Yahei,PingFangSC-Medium,sans-serif,serif;
+    margin: 0;
+    height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+#special #special_offer .special_list .special_list_r .special_item:hover .special_item_info .special_item_name{
+    color: #e1251b;
+}
+#special #special_offer .special_list .special_list_r .special_item .special_item_info .special_item_price{
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Arial-BoldMT,Microsoft Yahei,PingFangSC-Medium,sans-serif,serif;
+    color: #e1251b;
+    margin: 5px 0 0 0;
+    font-weight: bold;
+}
+#special #special_offer .special_list .special_list_r .special_item .special_item_info .special_item_price .dollar_txt{
+    font-size: 12px;
+}
+#special #special_offer .special_list .special_list_r .special_item .special_item_info .special_item_soldMsg{
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #999999;
+}
+#special #special_offer .special_list .special_list_r .special_item .special_item_info .special_item_soldNum{
+    color: #e1251b;
+}
+#special #lightning_buy{
+    width: 590px;
+    background-color: white;
+    margin: 0 0 0 10px;
+}
+#special #lightning_buy .lightning_buy_container{
+    padding: 0 20px 15px 15px;
+}
+#special #lightning_buy .lightning_buy_container .lightning_buy_container_l{
+    width: 230px;
+    height: 264px;
+    background-color: rgba(109,126,146,0.05);
+    text-align: center;
+}
+#special #lightning_buy .lightning_buy_container .lightning_buy_container_l .core_logo{
+    width: 50px;
+    height: 25px;
+    margin: 20px auto 0;
+}
+#special #lightning_buy .lightning_buy_container .lightning_buy_container_l .core_name{
+    height: 20px;
+    line-height: 20px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 6px 0 0 0;
+}
+#special #lightning_buy .lightning_buy_container .lightning_buy_container_l .core_desc{
+    font-size: 12px;
+    color: #666666;
+    margin: 4px 0;
+}
+#special #lightning_buy .lightning_buy_container .lightning_buy_container_l .core_desc .core_desc_promo::after{
+    content: '|';
+    margin: 0 1px 0 4px;
+}
+#special #lightning_buy .lightning_buy_container .lightning_buy_container_l .core_img{
+    width: 110px;
+    height: 110px;
+    margin-top: 10px;
+}
+#special #lightning_buy .lightning_buy_container .otherGoods{
+    width: 310px;
+    margin-left: 10px;
+}
+#special #lightning_buy .lightning_buy_container .otherGoods a:hover{
+    text-decoration: none;
+}
+#special #lightning_buy .lightning_buy_container .otherGoods .other_item{
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+    margin: 0 0 20px 0;
+}
+#special #lightning_buy .lightning_buy_container .otherGoods .other_item:nth-child(2n-1)::after{
+    position: absolute;
+    width: 2px;
+    height: 88px;
+    right: 0;
+    top: 0;
+    background: -webkit-gradient(linear,left top,left bottom,from(white),color-stop(#eeeeee),color-stop(#eeeeee),to(white));
+    background: linear-gradient(180deg,white,#eeeeee,#eeeeee,white);
+    content: "";
+}
+#special #lightning_buy .lightning_buy_container .otherGoods .other_item .other_logo{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 auto;
+}
+#special #lightning_buy .lightning_buy_container .otherGoods .other_item .other_logo img{
+    width: 100%;
+    height: 100%;
+}
+#special #lightning_buy .lightning_buy_container .otherGoods .other_item .other_name{
+    color: #666666;
+    font-size: 12px;
+    margin: 5px 0 0 0;
+}

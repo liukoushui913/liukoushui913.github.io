@@ -1,0 +1,558 @@
+#fs{
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 10px 0 30px;
+    position: relative;
+}
+#fs #treasure_box2{
+    position: absolute;
+    left: -112px;
+    top: 10px;
+    width: 272px;
+    height: 470px;
+    overflow: hidden;
+    z-index: 11;
+    transition: 0.3s;
+}
+#fs #treasure_box2 a{
+    width: 1064px;
+    height: 470px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#fs #treasure_box2 .treasure img{
+    width: 100%;
+    height: 100%;
+}
+#fs #treasure_box2 .treasure1{
+    width: 272px;
+    height: 470px;
+}
+#fs #treasure_box2 .treasure2{
+    width: 790px;
+    height: 470px;
+    position: relative;
+}
+#fs #treasure_box2 .close_icon{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #2d2d2d;
+    opacity: .3;
+    filter: alpha(opacity=30);
+    text-align: center;
+    display: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#fs .center{
+    position: relative;
+    z-index: 10;
+}
+#fs_l{
+    width: 190px;
+    background-color: white;
+    position: relative;
+}
+#fs_l .itemBox{
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+}
+#fs_l .itemBox .item{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 20px;
+    transition: 0.2s;
+}
+#fs_l .itemBox .item a{
+    color: #333333;
+    font-size: 14px;
+    margin-right: 2px;
+}
+#fs_l .itemBox .item a:hover{
+    color: #c81623;
+}
+#fs_l .itemBox .item span{
+    color: #333333;
+    font-size: 14px;
+    margin-right: 2px;
+}
+#fs_l #popMenu_box{
+    position: absolute;
+    top: 0;
+    left: 190px;
+    width: 980px;
+    box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    z-index: 99;
+}
+#fs_l #popMenu_box.fixed{
+    position: fixed;
+    top: 0;
+    left: 350px;
+}
+#fs_l #popMenu_box .popMenu{
+    background-color: white;
+}
+#fs_l #popMenu_box .popMenu .popMenu_l{
+    width: 800px;
+    height: 470px;
+    padding-top: 20px;
+}
+#fs_l #popMenu_box .popMenu .popMenu_l_top{
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#fs_l #popMenu_box .popMenu .popMenu_l_top li{
+    white-space: nowrap;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #333333;
+    padding: 2px 10px;
+}
+#fs_l #popMenu_box .popMenu .popMenu_l_top li a{
+    color: white;
+    font-size: 12px;
+}
+#fs_l #popMenu_box .popMenu .popMenu_l_top li span{
+    color: white;
+    font-size: 12px;
+}
+#fs_l #popMenu_box .popMenu .popMenu_l_list{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px 0;
+    font-size: 12px;
+}
+#fs_l #popMenu_box .popMenu .popMenu_l_list dt{
+    white-space: nowrap;
+    margin-left: 20px;
+    width: 70px;
+    text-align: right;
+}
+#fs_l #popMenu_box .popMenu .popMenu_l_list dt a{
+    color: #333333;
+}
+#fs_l #popMenu_box .popMenu .popMenu_l_list dt a:hover{
+    color: #c81623;
+}
+#fs_l #popMenu_box .popMenu .popMenu_l_list dt span{
+    margin: 0 10px 0 6px;
+}
+#fs_l #popMenu_box .popMenu .popMenu_l_list dd{
+    width: 700px;
+    text-align: left;
+}
+#fs_l #popMenu_box .popMenu .popMenu_l_list dd a{
+    display: inline-block;
+    color: #666666;
+    margin-bottom: 3px;
+    padding: 0 7px;
+}
+#fs_l #popMenu_box .popMenu .popMenu_l_list dd a:hover{
+    color: #c81623;
+}
+#fs_l #popMenu_box .popMenu .popMenu_r{
+    width: 174px;
+    padding-top: 20px;
+}
+#fs_l #popMenu_box .popMenu .popMenu_r .popMenu_r_top{
+    margin-bottom: 10px;
+}
+#fs_l #popMenu_box .popMenu .popMenu_r .popMenu_r_top img{
+    width: 83px;
+    height: 35px;
+    margin: 0 0 4px 0;
+}
+#fs_l #popMenu_box .popMenu .popMenu_r .popMenu_r_bottom img{
+    width: 168px;
+    height: 134px;
+    margin-bottom: 4px;
+}
+#fs_m{
+    margin-left: 14px;
+}
+.carousel-inner > .item{
+    -webkit-transition: 0s ease-in-out left;
+    -o-transition: 0s ease-in-out left;
+    transition: 0s ease-in-out left;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-inner > .item {
+        -webkit-transition: -webkit-transform 0s ease-in-out;
+        -o-transition: -o-transform 0s ease-in-out;
+        transition: -webkit-transform 0s ease-in-out;
+        transition: transform 0s ease-in-out;
+        transition: transform 0s ease-in-out, -webkit-transform 0s ease-in-out, -o-transform 0s ease-in-out;
+    }
+}
+#myCarousel1{
+    width: 590px;
+    height: 470px;
+    position: relative;
+}
+.carousel .carousel-control{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: none;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel .carousel-control.left{
+    left: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.carousel .carousel-control.right{
+    right: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.carousel .carousel-control .glyphicon{
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 25px;
+    top: 44%;
+}
+.carousel .carousel-control .glyphicon-chevron-left{
+    left: 44%;
+}
+.carousel .carousel-control .glyphicon-chevron-right{
+    right: 44%;
+}
+#myCarousel1 .carousel-indicators{
+    bottom: 10px;
+    left: 136px;
+    width: 40%;
+}
+#myCarousel2{
+    width: 190px;
+    height: 470px;
+    position: relative;
+    margin-left: 13px;
+}
+#myCarousel2 .carousel-inner .item .subItem{
+    height: 150px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+#myCarousel2 .carousel-inner .item .subItem:hover{
+    opacity: 0.7;
+}
+#myCarousel2 .carousel-inner .item .subItem img{
+    width: 190px;
+    height: 150px;
+}
+#myCarousel2 .carousel-control{
+    display: none;
+}
+#myCarousel2:hover .carousel-control{
+    display: block;
+}
+#fs_r{
+    width: 190px;
+    background-color: white;
+    margin-left: 13px;
+}
+#fs_r > div::after{
+    display: inline-block;
+    position: absolute;
+    height: 1px;
+    left: 15px;
+    right: 15px;
+    background: -webkit-gradient(linear,right top,left top,from(white),color-stop(#eeeeee),color-stop(#eeeeee),to(white));
+    background: linear-gradient(270deg,white,#eeeeee,#eeeeee,white);
+    content: " ";
+    bottom: 0;
+}
+#fs_r #login_box{
+    width: 100%;
+    height: 102px;
+    position: relative;
+}
+#fs_r #login_box .login_box_top{
+    padding: 15px 20px 5px 20px;
+}
+#fs_r #login_box .login_box_top .user_avatar{
+    width: 44px;
+    height: 44px;
+}
+#fs_r #login_box .login_box_top .user_avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+#fs_r #login_box .login_box_top .login_info{
+    margin-left: 10px;
+}
+#fs_r #login_box .login_box_top .login_info a{
+    font-size: 12px;
+    color: #666666;
+}
+#fs_r #login_box .login_box_top .login_info a:hover{
+    color: #c81623;
+}
+#fs_r #login_box .login_box_top .login_info p{
+    margin-bottom: 2px;
+}
+#fs_r #login_box .login_box_top .login_info span{
+    font-size: 12px;
+    color: #333333;
+}
+#fs_r #login_box .login_box_top .login_info a:hover span{
+    color: #c81623;
+}
+#fs_r #login_box .login_box_bottom{
+    text-align: center;
+}
+#fs_r #login_box .login_box_bottom button{
+    display: inline-block;
+    margin: 0 3px;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    border-radius: 13px;
+    border: none;
+    -webkit-transition: background .3s ease,color .3s ease;
+    transition: background .3s ease,color .3s ease;
+}
+#fs_r #login_box .login_box_bottom #boon{
+    color: white;
+    background-color: #e1251b;
+}
+#fs_r #login_box .login_box_bottom #vip{
+    color: #e5d790;
+    background-color: #363634;
+}
+#fs_r #login_box .login_box_bottom #boon:hover,#fs_r #login_box .login_box_bottom #vip:hover{
+    color: white;
+    background-color: #c81623;
+}
+#fs_r #news_box{
+    height: 125px;
+    padding: 15px 15px 0 15px;
+    position: relative;
+    box-sizing: content-box;
+}
+#fs_r #news_box .news_title{
+    margin-bottom: 8px;
+}
+#fs_r #news_box .news_title h5{
+    font-weight: bold;
+    margin: 0;
+}
+#fs_r #news_box .news_title span{
+    font-size: 12px;
+    color: #999999;
+}
+#fs_r #news_box .news_title a:hover span{
+    color: #c81623;
+}
+#fs_r #news_box .news_list{
+    margin: 0;
+}
+#fs_r #news_box .news_list li{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+#fs_r #news_box .news_list li span{
+    display: inline-block;
+    height: 16px;
+    width: 35px;
+    line-height: 16px;
+    text-align: center;
+    color: #e1251b;
+    background-color: rgba(225,37,27,0.08);
+    margin-right: 6px;
+}
+#fs_r #news_box .news_list li p{
+    width: 118px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+#fs_r #service_box{
+    position: relative;
+    width: 190px;
+    height: 228px;
+    overflow: hidden;
+}
+#fs_r #service_box .service_entry{
+    width: 190px;
+    height: 222px;
+}
+#fs_r #service_box .service_entry .service_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0 0 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item{
+    width: 63px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+#fs_r #service_box .service_entry .service_list .service_item .img{
+    width: 28px;
+    height: 28px;
+    background-image: url("../images/雪碧图/img.png");
+    background-size: cover;
+    margin: 0 auto;
+}
+#fs_r #service_box .service_entry .service_list .service_item .img .service_corner{
+    position: absolute;
+    right: 6px;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 14px;
+    text-align: center;
+    background: #e1251b;
+    color: white;
+    z-index: 1;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(1) .img{
+    background-position: -112px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(1):hover .img{
+    background-position: -84px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(2) .img{
+    background-position: -56px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(2):hover .img{
+    background-position: -280px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(3) .img{
+    background-position: 0 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(3):hover .img{
+    background-position: -476px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(4) .img{
+    background-position: -28px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(4):hover .img{
+    background-position: -448px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(5) .img{
+    background-position: -224px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(5):hover .img{
+    background-position: -504px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(6) .img{
+    background-position: -252px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(6):hover .img{
+    background-position: -560px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(7) .img{
+    background-position: -196px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(7):hover .img{
+    background-position: -532px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(8) .img{
+    background-position: -140px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(8):hover .img{
+    background-position: -336px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(9) .img{
+    background-position: -168px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(9):hover .img{
+    background-position: -308px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(10) .img{
+    background-position: -644px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(10):hover .img{
+    background-position: -392px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(11) .img{
+    background-position: -616px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(11):hover .img{
+    background-position: -420px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(12) .img{
+    background-position: -588px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item:nth-child(12):hover .img{
+    background-position: -364px 0;
+}
+#fs_r #service_box .service_entry .service_list .service_item .service_text{
+    display: block;
+    position: relative;
+    top: 0;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    color: #333333;
+    background-color: white;
+    -webkit-transition: color .15s ease;
+    transition: color .15s ease;
+}
+#fs_r #service_box .service_entry .service_list .service_item .line{
+    display: block;
+    width: 25px;
+    height: 0;
+    border: 1px transparent solid;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+#fs_r #service_box .service_entry .service_list .service_item.service_noframe:hover .service_text{
+    color: #c81623;
+}
+#fs_r #service_box .service_pop{
+    position: absolute;
+    top: 228px;
+    left: 0;
+}
+#fs_r #service_box .service_pop .service_pop_item{
+    width: 190px;
+    height: 197px;
+    padding: 0 15px;
+    background-color: white;
+}
+#fs_r #service_box .service_pop .close_icon{
+    font-size: 22px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    bottom: 12px;
+    margin-left: -10px;
+    line-height: 20px;
+    text-align: center;
+    background-color: white;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#fs_r #service_box .service_pop .close_icon:hover{
+    background-color: #c81623;
+    color: white;
+}

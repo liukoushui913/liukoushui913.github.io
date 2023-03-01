@@ -1,0 +1,342 @@
+#core{
+    width: 100%;
+    margin-top: 20px;
+}
+#core .center{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.blank{
+    width: 10px;
+}
+#core .center .core_item{
+    width: 292.5px;
+    background-color: white;
+}
+#core .center .core_item .core_item_title{
+    height: 60px;
+    padding: 0 20px;
+}
+#core .center .core_item .core_item_title .title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0;
+    line-height: 60px;
+    cursor: pointer;
+}
+#core .center .core_item .core_item_title .title .arrow{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px rgb(200, 22, 35) solid;
+    color: rgb(200, 22, 35);
+    background-color: white;
+    margin-left: 10px;
+    position: relative;
+    top: -4px;
+}
+#core .center .core_item .core_item_title .title:hover .arrow{
+    color: white;
+    background-color: rgb(200, 22, 35);
+}
+#core #newArrival{
+    background-image: url("../images/newArrivalBg.png");
+    background-size: cover;
+}
+#core .slider{
+    position: relative;
+    width: 292.5px;
+    height: 280px;
+    overflow: hidden;
+}
+#core .slider .item{
+    text-align: center;
+    width: 150px;
+    top: 50px;
+    position: absolute;
+}
+#core .slider .item .newArrival_item_img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+#core .slider .item .newArrival_item_img img{
+    width: 100%;
+    height: 100%;
+}
+#core .slider .item .newArrival_item_img .new_icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48px;
+    height: 20px;
+    font-size: 14px;
+    background-image: url("../images/new_bg.png");
+    background-size: contain;
+    color: white;
+}
+#core .slider .item .newArrival_item_info{
+    width: 150px;
+    text-align: center;
+    display: none;
+}
+#core .slider .item .newArrival_item_name{
+    margin: 10px auto;
+    width: 150px;
+    line-height: 19px;
+    font-size: 14px;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#core .slider .item .newArrival_item_desc{
+    font-size: 12px;
+    color: #999999;
+}
+#core .slider .item .newArrival_item_price{
+    font-size: 16px;
+    color: #e1251b;
+}
+#core .slider .item .newArrival_item_price .dollar_txt{
+    font-size: 12px;
+}
+#core .slider .item .newArrival_item_price .price{
+    font-size: 18px;
+}
+#core .slider .arrow{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 100px;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    z-index: 10;
+    cursor: pointer;
+}
+#core .slider .arrow_left{
+    left: 0;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+#core .slider .arrow_right{
+    right: 0;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+#core #joy .joy_nav .joy_nav_item{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #999999;
+    font-size: 12px;
+    background-color: #f6f6f6;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 4px;
+    width: 62px;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#core #joy .joy_nav .joy_nav_item.active{
+    color: white;
+    background-color: #e1251b;
+}
+#core #joy .joy_list_box .joy_list{
+    padding: 10px 0;
+}
+#core #joy .joy_list_box .joy_list .joy_item{
+    margin: 5px auto;
+    padding: 0 10px;
+}
+#core #joy .joy_list_box .joy_list .joy_item .joy_item_img{
+    width: 70px;
+    height: 70px;
+    margin-left: 5px;
+}
+#core #joy .joy_list_box .joy_list .joy_item .joy_item_img img{
+    width: 100%;
+    height: 100%;
+}
+#core #joy .joy_list_box .joy_list .joy_item .joy_info{
+    width: 180px;
+    height: 70px;
+    margin-left: 10px;
+}
+#core #joy .joy_list_box .joy_list .joy_item .joy_info .joy_name{
+    max-height: 2.6em;
+    line-height: 1.3em;
+    font-size: 14px;
+    word-break: break-all;
+    color: #333333;
+    overflow: hidden;
+}
+#core #joy .joy_list_box .joy_list .joy_item .joy_info .joy_price{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #e1251b;
+    letter-spacing: 0;
+}
+#core #joy .joy_list_box .joy_list .joy_item .joy_info .joy_price .price{
+    font-size: 16px;
+}
+#core #nice_shop .nice_shop_list .nice_shop_item{
+    box-sizing: border-box;
+    width: 260px;
+    height: 128px;
+    padding: 15px 10px 10px 15px;
+    margin: 0 auto 10px;
+    cursor: pointer;
+    background-size: contain;
+}
+#core #nice_shop .nice_shop_list .nice_shop_item:nth-child(1){
+    background-image: url("../images/nice_shop_bg1.png");
+}
+#core #nice_shop .nice_shop_list .nice_shop_item:nth-child(2){
+    background-image: url("../images/nice_shop_bg2.png");
+}
+#core #nice_shop .nice_shop_list .nice_shop_item .nice_shop_info{
+    width: 120px;
+    height: 100px;
+    color: #666666;
+    position: relative;
+}
+#core #nice_shop .nice_shop_list .nice_shop_item .nice_shop_info .shop_name{
+    max-height: 38px;
+    line-height: 1.3em;
+    font-size: 14px;
+    color: #333333;
+    transition: color 0.2s ease;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#core #nice_shop .nice_shop_list .nice_shop_item:hover .nice_shop_info .shop_name{
+    color: #c81623;
+}
+#core #nice_shop .nice_shop_list .nice_shop_item .nice_shop_info .shop_tag{
+    font-size: 12px;
+}
+#core #nice_shop .nice_shop_list .nice_shop_item .nice_shop_info .shop_tag .tag{
+    display: inline-block;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0 2px;
+    height: 18px;
+    line-height: 18px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    margin-right: 5px;
+}
+#core #nice_shop .nice_shop_list .nice_shop_item .nice_shop_info .shop_tag .tag1{
+    color: #e2231a;
+    border-color: #e2231a;
+}
+#core #nice_shop .nice_shop_list .nice_shop_item .nice_shop_info .shop_tag .tag2{
+    color: #596fab;
+    border-color: #596fab;
+}
+#core #nice_shop .nice_shop_list .nice_shop_item .nice_shop_info .shop_social{
+    color: #999;
+    font-size: 12px;
+    position: absolute;
+    bottom: 5px;
+    margin: 0;
+}
+#core #nice_shop .nice_shop_list .nice_shop_item .nice_shop_img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color: white;
+    margin-left: 10px;
+}
+#core #nice_shop .nice_shop_list .nice_shop_item:hover .nice_shop_img{
+    opacity: 0.8;
+}
+#core #nice_shop .nice_shop_list .nice_shop_item .nice_shop_img img{
+    width: 90px;
+    height: 90px;
+}
+#core #coupon .coupon_box{
+    width: 100%;
+    height: 280px;
+    background-image: url("../images/coupon.png");
+}
+#core #coupon .coupon_box .coupon_item{
+    width: 260px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#core #coupon .coupon_box .coupon_item .coupon_item_img{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 8px;
+    margin: 5px 0 0 5px;
+    overflow: hidden;
+}
+#core #coupon .coupon_box .coupon_item:hover .coupon_item_img{
+    opacity: 0.8;
+}
+#core #coupon .coupon_box .coupon_item .coupon_item_img img{
+    width: 50px;
+    height: 50px;
+}
+#core #coupon .coupon_box .coupon_item .coupon_item_info{
+    width: 140px;
+    margin-left: 10px;
+}
+#core #coupon .coupon_box .coupon_item .coupon_item_info .coupon_item_price{
+    font-size: 28px;
+    color: #e33333;
+    margin: 0;
+}
+#core #coupon .coupon_box .coupon_item .coupon_item_info .coupon_item_price .dollar_txt{
+    font-size: 14px;
+    color: #e33333;
+}
+#core #coupon .coupon_box .coupon_item .coupon_item_info .coupon_item_limit{
+    font-size: 12px;
+    color: #999999;
+    margin: 0 0 2px 0;
+}
+#core #coupon .coupon_box .coupon_item .coupon_item_info .coupon_item_desc{
+    font-size: 12px;
+    color: #333333;
+    line-height: 18px;
+    height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#core #coupon .coupon_box .coupon_item .coupon_more{
+    margin-top: 4px;
+}
+#core #coupon .coupon_box .coupon_item .coupon_more .coupon_more_inner{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    font-size: 12px;
+    color: #666666;
+}
+#core #coupon .coupon_box .coupon_item .coupon_more .coupon_more_arrow{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #666666;
+}
+#core #coupon .coupon_box .coupon_item:hover .coupon_more .coupon_more_inner,#core #coupon .coupon_box .coupon_item:hover .coupon_more .coupon_more_arrow{
+    color: #c81623;
+}

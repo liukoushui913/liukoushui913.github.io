@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CssFileName="../images" ImageName="img" IsPhone="false" xmlns="CssSprite">
+  <SpriteList>
+    <Sprite Path="32.png" LocationX="0" LocationY="0" />
+    <Sprite Path="33.png" LocationX="84" LocationY="0" />
+    <Sprite Path="31.png" LocationX="168" LocationY="0" />
+    <Sprite Path="21.png" LocationX="252" LocationY="0" />
+    <Sprite Path="30.png" LocationX="336" LocationY="0" />
+    <Sprite Path="37.png" LocationX="420" LocationY="0" />
+    <Sprite Path="38.png" LocationX="504" LocationY="0" />
+    <Sprite Path="36.png" LocationX="588" LocationY="0" />
+    <Sprite Path="34.png" LocationX="672" LocationY="0" />
+    <Sprite Path="35.png" LocationX="756" LocationY="0" />
+    <Sprite Path="20.png" LocationX="840" LocationY="0" />
+    <Sprite Path="13.png" LocationX="924" LocationY="0" />
+    <Sprite Path="14.png" LocationX="1008" LocationY="0" />
+    <Sprite Path="12.png" LocationX="1092" LocationY="0" />
+    <Sprite Path="10.png" LocationX="1176" LocationY="0" />
+    <Sprite Path="11.png" LocationX="1260" LocationY="0" />
+    <Sprite Path="18.png" LocationX="1344" LocationY="0" />
+    <Sprite Path="19.png" LocationX="1428" LocationY="0" />
+    <Sprite Path="17.png" LocationX="1512" LocationY="0" />
+    <Sprite Path="15.png" LocationX="1596" LocationY="0" />
+    <Sprite Path="16.png" LocationX="1680" LocationY="0" />
+    <Sprite Path="41.png" LocationX="1764" LocationY="0" />
+    <Sprite Path="40.png" LocationX="1848" LocationY="0" />
+    <Sprite Path="39.png" LocationX="1932" LocationY="0" />
+  </SpriteList>
+</SpriteFile>

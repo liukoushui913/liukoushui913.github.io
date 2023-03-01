@@ -1,0 +1,213 @@
+#app{
+    width: 100%;
+    background-color: #f4f4f4;
+    overflow: hidden;
+    position: relative;
+}
+#seckill_box{
+    width: 100%;
+    height: 260px;
+    margin: 0 0 20px;
+}
+#seckill_box .seckill_countdown{
+    position: relative;
+    width: 190px;
+    height: 260px;
+    color: white;
+    background-color: #e83632;
+    background-image: url(../images/seckill_bg.png);
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#seckill_box .seckill_countdown .countdown_title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 31px;
+}
+#seckill_box .seckill_countdown .countdown_desc{
+    margin-top: 90px;
+    font-size: 14px;
+    text-align: center;
+}
+#seckill_box .seckill_countdown .countdown_desc strong{
+    font-size: 18px;
+    padding-right: 2px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -1px;
+}
+#seckill_box .seckill_countdown .countdown_main{
+    margin: 10px auto;
+    width: 130px;
+    height: 30px;
+}
+#seckill_box .seckill_countdown .countdown_main .time_unit{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #2f3430;
+    color: white;
+    font-size: 20px;
+}
+#seckill_box .seckill_countdown .countdown_main .time_unit2{
+    display: inline-block;
+    width: 10px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#myCarousel3 .carousel-inner > .item{
+    -webkit-transition: 0.4s ease-in-out left;
+    -o-transition: 0.4s ease-in-out left;
+    transition: 0.4s ease-in-out left;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+    #myCarousel3 .carousel-inner > .item {
+        -webkit-transition: -webkit-transform 0.4s ease-in-out;
+        -o-transition: -o-transform 0.4s ease-in-out;
+        transition: -webkit-transform 0.4s ease-in-out;
+        transition: transform 0.4s ease-in-out;
+        transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+    }
+}
+#myCarousel3{
+    width: 800px;
+    height: 260px;
+}
+#myCarousel3 .carousel-inner .item{
+    width: 800px;
+    height: 260px;
+    background-color: white;
+}
+#myCarousel3 .carousel-inner .item .subItem{
+    width: 200px;
+    height: 260px;
+    position: relative;
+}
+#myCarousel3 .carousel-inner .item .subItem::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: 200px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: -webkit-gradient(linear,left top,left bottom,from(white),color-stop(#eeeeee),to(white));
+    background: linear-gradient(180deg,white,#eeeeee,white);
+}
+#myCarousel3 .carousel-inner .item .subItem .imgBox{
+    width: 140px;
+    height: 140px;
+    margin: 40px auto 0;
+}
+#myCarousel3 .carousel-inner .item .subItem .imgBox img{
+    width: 100%;
+    height: 100%;
+}
+#myCarousel3 .carousel-inner .item .subItem .subItem_title{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 140px;
+    margin: 5px auto 10px;
+}
+#myCarousel3 .carousel-inner .item .subItem .price{
+    text-align: center;
+    color: #e1251b;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+}
+#seckill_box .seckill_brand{
+    padding: 10px 15px;
+    background-color: white;
+}
+#myCarousel4 .carousel-inner > .item{
+    -webkit-transition: 0.4s ease-in-out left;
+    -o-transition: 0.4s ease-in-out left;
+    transition: 0.4s ease-in-out left;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+    #myCarousel4 .carousel-inner > .item {
+        -webkit-transition: -webkit-transform 0.4s ease-in-out;
+        -o-transition: -o-transform 0.4s ease-in-out;
+        transition: -webkit-transform 0.4s ease-in-out;
+        transition: transform 0.4s ease-in-out;
+        transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out, -o-transform 0.4s ease-in-out;
+    }
+}
+#myCarousel4,#myCarousel4 .carousel-inner,#myCarousel4 .carousel-inner .item{
+    width: 180px;
+    height: 240px;
+    background-color: white;
+    overflow: hidden;
+}
+#myCarousel4 .carousel-indicators{
+    bottom: -10px;
+}
+#myCarousel4 .carousel-indicators .active{
+    background-color: #e1251b;
+}
+#myCarousel4 .carousel-inner .item .item_img{
+    width: 120px;
+    height: 120px;
+    margin: 20px auto 0;
+}
+#myCarousel4 .carousel-inner .item .item_img img{
+    width: 100%;
+    height: 100%;
+}
+#myCarousel4 .carousel-inner .item .item_info{
+    background: linear-gradient(180deg,rgba(255,255,255,.5),rgba(220,224,236,.5));
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    height: 100px;
+}
+#myCarousel4 .carousel-inner .item .item_info .info_title{
+    font-size: 14px;
+    color: #666666;
+    margin: 10px 0 0 0;
+}
+#myCarousel4 .carousel-inner .item .item_info .info_promo{
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+    margin: 0;
+}
+#myCarousel4 .carousel-inner .item .item_info button{
+    color: #e1251b;
+    border-radius: 14px;
+    width: 82px;
+    height: 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    line-height: 22px;
+    font-weight: 700;
+    padding-left: 4px;
+    font-size: 12px;
+    border: 1px solid #e1251b;
+    margin-top: 4px;
+    background-color: transparent;
+    -webkit-transition: background-color .2s ease;
+    transition: background-color .2s ease;
+}
+#myCarousel4 .carousel-inner .item .item_info button:hover{
+    background-color: #e1251b;
+    color: white;
+}

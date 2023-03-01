@@ -1,0 +1,104 @@
+#nice_goods{
+    width: 100%;
+    margin-top: 20px;
+}
+#nice_goods .nice_goods_logo_box{
+    width: 190px;
+    height: 260px;
+    background-image: url("../images/nice_goods.png");
+    background-size: 190px 260px;
+    cursor: pointer;
+}
+#nice_goods .nice_goods_logo_box .nice_goods_logo{
+    width: 160px;
+    height: 90px;
+    margin: 15px auto;
+    background-image: url("../images/nice_goods_logo.png");
+    background-size: 160px 90px;
+}
+#nice_goods .nice_goods_logo_box .nice_goods_logo .logo_text{
+    color: rgba(255,255,255,0.8);
+    font-size: 16px;
+    padding: 55px 0 10px 20px;
+}
+#nice_goods .nice_goods_logo_box .nice_goods_logo .logo_text .arrow{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px rgba(255,255,255,0.8) solid;
+    color: rgba(255,255,255,0.8);
+    background-color: transparent;
+    margin-left: 5px;
+}
+#nice_goods .nice_goods_logo_box:hover .nice_goods_logo .logo_text .arrow{
+    background-color: rgb(200, 22, 35);
+}
+#nice_goods .nice_goods_list_box{
+    width: 1000px;
+    height: 260px;
+    margin-left: 10px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+#nice_goods .nice_goods_list_box .nice_goods_list{
+    width: 3000px;
+    height: 260px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 15px;
+}
+#nice_goods .nice_goods_list_box .nice_goods_list .nice_goods_item{
+    width: 150px;
+    vertical-align: top;
+    margin: 50px 50px 0 0;
+    user-select: none;
+}
+#nice_goods .nice_goods_list_box .nice_goods_list .nice_goods_item:hover{
+    opacity: 0.8;
+}
+#nice_goods .nice_goods_list_box .nice_goods_list .nice_goods_item:hover .goods_name{
+    color: rgb(200, 22, 35);
+}
+#nice_goods .nice_goods_list_box .nice_goods_list .nice_goods_item .goods_name{
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#nice_goods .nice_goods_list_box .nice_goods_list .nice_goods_item .goods_img{
+    width: 150px;
+    height: 150px;
+}
+#nice_goods .nice_goods_list_box .nice_goods_list .nice_goods_item .goods_img img{
+    width: 100%;
+    height: 100%;
+}
+#nice_goods .nice_goods_list_box .scroll_bar{
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    width: calc(100% - 30px);
+    height: 3px;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+    display: none;
+}
+#nice_goods .nice_goods_list_box .scroll_bar .scroll_point{
+    width: 100px;
+    height: 9px;
+    border-radius: 4px;
+    background-color: #d8d8d8;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 4.5px);
+}

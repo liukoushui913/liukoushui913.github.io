@@ -1,0 +1,81 @@
+#elevator{
+    position: absolute;
+    top: 0;
+    right: 80px;
+    transition: all 0.3s;
+}
+#elevator.fixed{
+    position: fixed;
+    top: 75px;
+    right: 80px;
+}
+#elevator.fixed2{
+    position: fixed;
+    top: 135px;
+    right: 80px;
+}
+#elevator .elevator_list{
+    background-color: white;
+}
+#elevator .elevator_list .elevator_item{
+    width: 58px;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    background-color: white;
+}
+#elevator .elevator_list .elevator_item:hover{
+    background-color: rgb(200, 22, 35);
+}
+#elevator .elevator_list .elevator_item span{
+    display: inline-block;
+    width: 28px;
+    padding: 10px 0 9px;
+    color: #333333;
+    border-bottom: 1px #eeeeee solid;
+}
+#elevator .elevator_list .elevator_item.service_item span{
+    padding: 10px 0 4px;
+    border-bottom: 1px #eeeeee solid;
+}
+#elevator .elevator_list .elevator_item.to_top span{
+    color: rgb(200, 22, 35);
+    border: none;
+}
+#elevator .elevator_list .elevator_item:hover span{
+    color: white;
+    border-color: rgb(200, 22, 35);
+}
+#elevator .elevator_list .elevator_item.active span{
+    color: rgb(200, 22, 35);
+}
+#elevator .elevator_list .elevator_item.active:hover span{
+    color: white;
+}
+#elevator .elevator_list .elevator_item i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: #333333;
+}
+#elevator .elevator_list .elevator_item:hover i{
+    color: white;
+}
+#elevator .elevator_list .elevator_item.to_top i{
+    color: rgb(200, 22, 35);
+}
+#elevator .elevator_list .elevator_item.to_top:hover i{
+    color: white;
+}
+#elevator .elevator_list .elevator_item i.service_icon{
+    background-image: url("../images/客服.png");
+}
+#elevator .elevator_list .elevator_item:hover i.service_icon{
+    background-image: url("../images/客服2.png");
+}
+#elevator .elevator_list .elevator_item i.feedback_icon{
+    background-image: url("../images/反馈.png");
+}
+#elevator .elevator_list .elevator_item:hover i.feedback_icon{
+    background-image: url("../images/反馈2.png");
+}

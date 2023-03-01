@@ -1,0 +1,163 @@
+#footer{
+    width: 100%;
+    margin-top: 50px;
+}
+#footer .service .serviceList{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#footer .service .serviceList .serviceItem{
+    width: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#footer .service .serviceList .serviceItem .service_title{
+    width: 37px;
+    height: 44px;
+    background-image: url("../images/footer_sprite.png");
+    background-size: 308px 234px;
+    margin-left: 50px;
+}
+#footer .service .serviceList .serviceItem .service_title.service_duo{
+    background-position: 0 -190px;
+}
+#footer .service .serviceList .serviceItem .service_title.service_kuai{
+    background-position: -40px -190px;
+}
+#footer .service .serviceList .serviceItem .service_title.service_hao{
+    background-position: -81px -190px;
+}
+#footer .service .serviceList .serviceItem .service_title.service_sheng{
+    background-position: -122px -190px;
+}
+#footer .service .serviceList .serviceItem .service_desc{
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444444;
+    margin-left: 10px;
+}
+#footer .help_box{
+    width: 100%;
+    border-top: 1px #e1e1e1 solid;
+    padding: 20px 0;
+}
+#footer .help{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#footer .help .help_item{
+    width: 200px;
+}
+#footer .help .help_item .help_title{
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+}
+#footer .help .help_item .help_item_list .help_subItem{
+    line-height: 22px;
+    color: #666666;
+    font-size: 12px;
+}
+#footer .help .help_item .help_item_list .help_subItem a{
+    color: #666666;
+}
+#footer .help .help_item .help_item_list .help_subItem a:hover{
+    color: #c81623;
+}
+#footer .help .help_cover .help_cover_title{
+    text-align: center;
+}
+#footer .help .help_cover .help_cover_info{
+    width: 180px;
+    padding: 0 0 0 20px;
+    font-size: 12px;
+    margin: 0;
+    color: #666666;
+}
+#footer .help .help_cover .help_cover_more{
+    font-size: 12px;
+    text-align: right;
+    padding-right: 20px;
+}
+#footer .help .help_cover .help_cover_more a{
+    color: #666666;
+}
+#footer .help .help_cover .help_cover_more a:hover{
+    color: #c81623;
+}
+#footer .help .help_cover .help_cover_more .arrow{
+    margin-left: 4px;
+    font-size: 8px;
+    position: relative;
+    top: -1px;
+}
+#footer .copyright{
+    padding: 20px 0;
+    border-top: 1px #e1e1e1 solid;
+    text-align: center;
+    font-size: 12px;
+}
+#footer .copyright .copyright_links{
+    margin-bottom: 15px;
+}
+#footer .copyright .copyright_links .copyright_link{
+    color: #666666;
+}
+#footer .copyright .copyright_links .copyright_link:hover{
+    color: #c81623;
+}
+#footer .copyright .copyright_split{
+    margin: 0 10px;
+    color: #cccccc;
+}
+#footer .copyright .copyright_info p{
+    margin-bottom: 4px;
+}
+#footer .copyright .copyright_info a{
+    color: #999999;
+}
+#footer .copyright .copyright_info a:hover{
+    color: #c81623;
+}
+#footer .copyright .copyright_info .copyright_text{
+    color: #999999;
+}
+#footer .copyright .copyright_auth{
+    margin: 40px 0 20px;
+}
+#footer .copyright .copyright_auth .copyright_auth_icon{
+    background-image: url("../images/footer_sprite.png");
+    background-size: 308px 234px;
+    display: inline-block;
+    width: 103px;
+    height: 32px;
+}
+#footer .copyright .copyright_auth .copyright_auth_icon2{
+    background-image: url("../images/copyright_auth.png");
+    background-size: 207px 131px;
+    display: inline-block;
+    width: 103px;
+    height: 32px;
+}
+#footer .copyright .copyright_auth .copyright_auth_icon.index1{
+    background-position: -205px -111px;
+}
+#footer .copyright .copyright_auth .copyright_auth_icon.index2{
+    background-position: -205px -74px;
+}
+#footer .copyright .copyright_auth .copyright_auth_icon.index3{
+    background-position: -205px -37px;
+}
+#footer .copyright .copyright_auth .copyright_auth_icon2.index4{
+    background-position: 0 -66px;
+}
+#footer .copyright .copyright_auth .copyright_auth_icon.index5{
+    background-position: 0 -155px;
+}
+#footer .copyright .copyright_auth .copyright_auth_icon2.index6{
+    background-position: 0 -99px;
+}
